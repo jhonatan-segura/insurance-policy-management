@@ -171,7 +171,7 @@ public class PolicyController {
                   HttpStatus.NOT_FOUND,
                   "Póliza no encontrada"));
 
-      if (!"COLLECTIVE".equalsIgnoreCase(
+      if (!"COLECTIVA".equalsIgnoreCase(
             policy.getType().getName())) {
 
          throw new ResponseStatusException(
